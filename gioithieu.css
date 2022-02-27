@@ -1,0 +1,97 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    padding: 14px 0px 0px 0px;
+    margin:6px 0px 1px 28px;
+    width: 260px;
+    height: 54px;
+}
+.menu{
+    width: 700px;
+    padding: 32px 330px 0px 1px;
+    margin: 1px 1px 1px 1px;
+    display: flex;
+
+}
+.menu li{
+    padding: 0px 2px 1px 19px;
+    margin: 1px -9px 1px 1px;
+    font-size: 14px;
+}
+.menu li a:hover{
+    color: mediumblue;
+}
+.menu2{
+    font-size: 10px;
+    background: whitesmoke;
+    width: 250px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    display: none;
+
+}
+.menu2 li{
+    text-align: left;
+}
+.menu .menulink:hover .menu2{
+    display: block;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    width: 1200px;
+    padding: 30px 1px 1px 30px;
+    margin: 1px 1px 1px 1px;
+}
+.text1{
+    font-size: 25px;
+    padding-left:250px ;
+    padding-bottom: 30px;
+}
+.text2{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.text3{
+    padding-top: 30px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.text4{
+    padding-bottom: 25px;
+    color: mediumblue;
+}
+.text5{
+    list-style-type: circle;
+    padding-left: 0px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.ab{
+    margin-top: 15px;
+}
+.ac{
+    margin-top: 15px;
+}
+.text6{
+    list-style-type: circle;
+    padding-left: 0px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
