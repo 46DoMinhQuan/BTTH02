@@ -1,0 +1,76 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    padding: 14px 0px 0px 0px;
+    margin:6px 0px 1px 28px;
+    width: 260px;
+    height: 54px;
+}
+.menu{
+    width: 700px;
+    padding: 32px 330px 0px 1px;
+    margin: 1px 1px 1px 1px;
+    display: flex;
+
+}
+.menu li{
+    padding: 0px 2px 1px 19px;
+    margin: 1px -9px 1px 1px;
+    font-size: 14px;
+}
+.menu li a:hover{
+    color: mediumblue;
+}
+.menu2{
+    font-size: 10px;
+    background: whitesmoke;
+    width: 250px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    display: none;
+
+}
+.menu2 li{
+    text-align: left;
+}
+.menu .menulink:hover .menu2{
+    display: block;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgo{
+    width: 100%;
+    height: 100%;
+
+}
+.text1{
+    padding: 35px 1px 35px 30px;
+}
+.text2{
+    padding: 5px 1px 1px 30px;
+}
+
+.end{
+    display: flex;
+}
+input{
+    padding: 10px 200px 10px 0px;
+}
+.input{
+    margin: 80px 0px 0px 0px;
+    padding: 0px 0px 0px 130px;
+}
