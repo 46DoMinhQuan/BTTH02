@@ -1,0 +1,33 @@
+.table{
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    border: gray solid;
+}
+#thongbao{
+    text-blink: ;
+}
+@-webkit-keyframes nhapnhay {
+    0% { color: red; }
+    100% { color: black;  }
+}
+@-moz-keyframes nhapnhay {
+    0% { color: red; }
+    100% { color: black;  }
+}
+@-o-keyframes nhapnhay {
+    0% { color: red; }
+    100% { color: black;  }
+}
+@keyframes nhapnhay {
+    0% { color: red; }
+    100% { color: black;  }
+}
+#thongbao {
+    font-size:24px;
+    font-weight:bold;
+    -webkit-animation: nhapnhay 700ms infinite;
+    -moz-animation: nhapnhay 700ms infinite;
+    -o-animation: nhapnhay 700ms infinite;
+    animation: nhapnhay 700ms infinite;
+}
